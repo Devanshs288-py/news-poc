@@ -1,0 +1,16 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Generated caches
+poc_cache/
+**/cache/
+
+# Generated workbooks from the original pipeline
+personalized_news_evaluation.xlsx
+personalized_news_recommendations.xlsx
+
+# Local spreadsheet lock files
+~$*.xlsx
